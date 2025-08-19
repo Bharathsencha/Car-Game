@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -std=c99
-LDFLAGS = -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
+LDFLAGS = -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 -lm
 
 SRC = main.c
 OUT = main
